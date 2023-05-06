@@ -1,0 +1,37 @@
+.admin-card {
+    border: 4px solid #ddd;
+    border-radius:35px;
+    margin-top: 210px;
+    margin-left: 570px;
+    margin-bottom: 210px;
+}
+
+.admin-card .card-top{
+    width: 100%;
+    height: 270px;
+}
+
+
+
+.admin-card .card-info {
+    padding: 10px;
+    text-align: center;
+    border-radius: 100%;    
+    background-color: rgb(255, 255, 255); 
+   
+}
+.admin-card .card-info .title {
+    font-weight: bolder;
+    color: rgb(5, 5, 5);
+}
+
+
+.admin-card .card-info button {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 40%;    
+
+    border: 0;
+    margin-top: 0px;
+    
+}
