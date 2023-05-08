@@ -45,6 +45,7 @@ const Login = () => {
       {login.err.map((error, index) => (
         <Alert key={index} variant="danger" className="p-2">
           {error.msg}
+        </Alert>
       ))}
       <Form onSubmit={LoginFun}>
         <Form.Group className="mb-3">
