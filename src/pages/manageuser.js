@@ -59,7 +59,7 @@ const Manageusers = () => {
                   Delete
                 </button>
                 <Link
-                  // to={"update"}
+                  to={"History"}
                   className="btn btn-sm btn-primary mx-2">
                   History
                 </Link>

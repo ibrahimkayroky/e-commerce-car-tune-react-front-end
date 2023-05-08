@@ -6,16 +6,18 @@ const Cart = () => {
     return (
         <div className="manage-movies p-5">
       <div className="header d-flex justify-content-between mb-5">
-        <h3 className="text-center ">Manage cart</h3>
+        <h3 className="text-center ">Show Cart</h3>
+        <Link to={"UserHistory"} className="btn btn-success">
+          Show History
+        </Link>
         
       </div>
       <Table striped bordered hover>
         <thead>
           <tr>
-            <th>#</th>
-            <th>Image</th>
-            <th> Name</th>
-            <th> Description</th>
+            <th>Order Number</th>
+            <th>Name</th>
+            <th>Price</th>
             <th>Action</th>
           </tr>
         </thead>
@@ -25,14 +27,20 @@ const Cart = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+            
                <td> 
               
+               <Link
+                  to={"CheckOut"}
+                  className="btn btn-sm btn-primary mx-2">
+                  Accept
+                </Link>
                 <button
                   className="btn btn-sm btn-danger"
                   >
                   Delete
                 </button>
+                
                
                 
               </td>

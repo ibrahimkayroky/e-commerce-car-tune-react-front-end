@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router-dom";
-import AboutPage from "./pages/about/AboutPage";
 import ContactPage from "./pages/contact/ContactPage";
 import ProductsListPage from "./pages/products/ProductsListPage";
 import App from './App'
@@ -23,7 +22,9 @@ import Managecart from "./pages/managecart";
 import Manageusers from "./pages/manageuser";
 import AdminDashBoard from "./pages/products/AdminDashBoard";
 import AddAdmin from "./pages/Auth/AddAdmin";
-import History from "./pages/History";
+import History from "./pages/HistoryUserForAdmin";
+import CheckOut from "./pages/products/components/CheckOut";
+import UserHistory from "./pages/products/UserHistory";
 export const router = createBrowserRouter([
     {
         path: "/",
@@ -71,10 +72,7 @@ export const router = createBrowserRouter([
                 element: <ProductInfoPagegaskets />,
             },
             
-            {
-                path: '/about',
-                element: <AboutPage />,
-            },
+            
             {
                 path: '/contact',
                 element: <ContactPage />,
@@ -98,6 +96,12 @@ export const router = createBrowserRouter([
                 path: "/AdminDashBoard",
                 element: <AdminDashBoard/>,
             },
+            
+            {
+              path: "cart/UserHistory",
+              element: <UserHistory/>,
+          },
+          
             {
                 path: "/AdminDashBoard",
             
@@ -161,6 +165,11 @@ export const router = createBrowserRouter([
               path: '/AdminDashBoard/manageusers/History',
               element: <History />,
           },
+          
+          {
+            path: '/cart/CheckOut',
+            element: <CheckOut />,
+        },
             
         ]
     },

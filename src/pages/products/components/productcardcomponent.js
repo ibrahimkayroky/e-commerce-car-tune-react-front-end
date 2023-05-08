@@ -15,6 +15,12 @@ const ProductCardcomp = (props) => {
                     alt='card-top'
                 />
             </div>
+            <div className="card-description">
+                 
+                    {props.description}
+                    
+                
+            </div>
             <div className="card-info">
                 <button><Link to={'/product-info/'+props.name}><h2 className="title">{props.name}</h2></Link></button>
                 

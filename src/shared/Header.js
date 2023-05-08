@@ -14,7 +14,7 @@ const Header = ()=>{
                     
                     <li><Link to="/login">Login</Link></li>
                     <li><Link to="/Register">Sign Up</Link></li>
-                    <li><Link to="/about">LogOut</Link></li>
+                    <li><Link to="/">LogOut</Link></li>
                     <li><Link to="/cart"><img src={im} alt="logo" /></Link></li>
                 </ul>
             </nav>

@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from "react";
 import Table from "react-bootstrap/Table";
-import "./products/style/manageproduct.css"
+import "../products/style/manageproduct.css";
 import { Link } from "react-router-dom";
 import Alert from "react-bootstrap/Alert";
 
-const Managecart = () => {
+
+const UserHistory = () => {
  
   return (
     <div className="manage-products p-5">
       <div className="header d-flex justify-content-between mb-5">
-        <h3 className="text-center ">Manage Cart</h3>
-        
+        <h3 className="text-center ">History</h3>
+    
       </div>
 
       {/* <Alert variant="danger" className="p-2">
@@ -24,11 +25,9 @@ const Managecart = () => {
       <Table striped bordered hover>
         <thead>
           <tr>
-            <th>#</th>
-            <th>Image</th>
-            <th> Name</th>
-            <th> Description</th>
-            <th>Action</th>
+            <th>ProductName</th>
+            <th>TotalPrice</th>
+            <th>OrderDate</th>
           </tr>
         </thead>
         <tbody>
@@ -38,19 +37,8 @@ const Managecart = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td>
-                <Link
-                  to={"update"}
-                  className="btn btn-sm btn-primary mx-2">
-                  Add
-                </Link>
-                <button
-                  className="btn btn-sm btn-danger"
-                  >
-                  Delete
-                </button>
+               <td>
                 
-            
               </td>
               </tr>
           }
@@ -60,4 +48,4 @@ const Managecart = () => {
   );
 };
 
-export default Managecart;
+export default UserHistory;

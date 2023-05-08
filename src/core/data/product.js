@@ -10,37 +10,39 @@ export const data = [
         id: 1,
         name: 'Exhaust-System',
         image : im4,
-        length: 10,
+        description:"removes engine exhaust gas reduces noise"
     },
     {
         id: 2,
         name: 'Turbo',
         image : im1,
+        description:"  increases engine hp compressing more air"
     },
     {
         id: 3,
         name: 'Transmission',
         image : im2,
+        description:" transfers engine power to wheels by gears"
     },
     {
         id: 4,
         name: 'Brake-System',
         image : im3,
-        length: 10,
-
+        description:" used to slow or stop a vehicle"
+        
     },
     {
         id: 5,
         name: 'Air-Intake-System',
         image : im,
-        description : "sad",
-        
+        description : "  deliver air to an internal combustion engine"
     },
     {
         id: 6,
         name: 'gaskets',
         image : im5,
         length: 10,
+        description:" prevent leaks, need proper installation"
 
     }
 ];

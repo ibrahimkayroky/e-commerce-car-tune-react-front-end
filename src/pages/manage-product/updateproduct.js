@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Alert from "react-bootstrap/Alert";
-
+import "../products/style/add.css";
 
 import { useParams } from "react-router-dom";
 
@@ -10,7 +10,7 @@ const UpdateProduct = () => {
 
   return (
     <div className="login-container">
-      <h1>Update Product Form</h1>
+      <h1 className="add-category">Update Product</h1>
 
      
 
@@ -34,10 +34,15 @@ const UpdateProduct = () => {
         </Form.Group>
 
         <Form.Group className="mb-3">
-          <textarea
+        <Form.Control
             className="form-control"
             placeholder="Description"
-            ></textarea>
+            /></Form.Group>
+        <Form.Group className="mb-3">
+        <Form.Control
+            className="form-control"
+            placeholder="Price"
+            />
         </Form.Group>
 
         <Form.Group className="mb-3">

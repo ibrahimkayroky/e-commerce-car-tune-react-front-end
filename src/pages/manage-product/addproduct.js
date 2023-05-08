@@ -2,12 +2,12 @@ import React, { useRef, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Alert from "react-bootstrap/Alert";
-
+import "../products/style/add.css";
 const AddProduct = () => {
 
   return (
     <div className="login-container">
-      <h1>Add New Product Form</h1>
+      <h1 className="add-category">Add Product</h1>
 
       
 
@@ -21,11 +21,19 @@ const AddProduct = () => {
         </Form.Group>
 
         <Form.Group className="mb-3">
-          <textarea
+        <Form.Control
             className="form-control"
             placeholder="Description"
           
-            ></textarea>
+            />
+        </Form.Group>
+        <Form.Group className="mb-3">
+        <Form.Control
+             type="text"
+            className="form-control"
+            placeholder="Price"
+          
+            />
         </Form.Group>
 
         <Form.Group className="mb-3">

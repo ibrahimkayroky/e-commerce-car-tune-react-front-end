@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Alert from "react-bootstrap/Alert";
-
+import "../products/style/add.css";
 
 import { useParams } from "react-router-dom";
 
@@ -10,7 +10,7 @@ const Updatecategory = () => {
 
   return (
     <div className="login-container">
-      <h1>Update category Form</h1>
+      <h1 className="add-category">Update Category</h1>
 
      
 
@@ -29,16 +29,18 @@ const Updatecategory = () => {
         <Form.Group className="mb-3">
           <Form.Control
             type="text"
-            placeholder="category Name"
+            placeholder="Category Name"
            />
         </Form.Group>
 
         <Form.Group className="mb-3">
-          <textarea
+        <Form.Control
             className="form-control"
             placeholder="Description"
-            ></textarea>
+            />
         </Form.Group>
+        
+
 
         <Form.Group className="mb-3">
           <input type="file" className="form-control"  />
