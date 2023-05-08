@@ -22,7 +22,8 @@ import Updatecategory from "./pages/manage-category/updatecategory";
 import Managecart from "./pages/managecart";
 import Manageusers from "./pages/manageuser";
 import AdminDashBoard from "./pages/products/AdminDashBoard";
-import AddAdmin from "./pages/Auth/AddAdmin"
+import AddAdmin from "./pages/Auth/AddAdmin";
+import History from "./pages/History";
 export const router = createBrowserRouter([
     {
         path: "/",
@@ -87,6 +88,7 @@ export const router = createBrowserRouter([
                 path: '/Register',
                 element: <Register />,
             },
+
             {
                 path: "/cart",
                 element: <Cart />,
@@ -146,11 +148,19 @@ export const router = createBrowserRouter([
                 element: <Manageusers/>,
               },
               {
-                path:"/AdminDashBoard/manageusers/",
+                path:"/AdminDashBoard/manageusers/AddAdmin/",
                 element:<AddAdmin/>
-              }
+              },
+              {
+                path: '/login/Register',
+                element: <Register />,
+            },
             
-
+              
+            {
+              path: '/AdminDashBoard/manageusers/History',
+              element: <History />,
+          },
             
         ]
     },

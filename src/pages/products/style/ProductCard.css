@@ -65,5 +65,11 @@
     cursor: pointer;
     color: rgb(198, 198, 198);
 }
+.product-card .card-info .price {
+    padding-top: 7%;
+    font-weight:bolder;
+    color: rgb(142, 0, 0);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
 
 

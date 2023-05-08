@@ -13,11 +13,14 @@ const ProductCard = (props) => {
             <div className="card-info">
                 <h2 className="title">{props.name}</h2>
                 <p className="info">{props.description}</p>
+                <h2 className="price">{props.price} $</h2>
+
                   <button >
                     <Link to={'/product-info/'+props.namecategory +'/'+props.id}>
                     <h5>Add to cart</h5>
                     </Link>
                 </button>
+
             </div>
         </div>
      );

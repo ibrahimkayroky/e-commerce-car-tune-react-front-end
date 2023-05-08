@@ -10,7 +10,7 @@ export const data = [
         name: 'toyota-3ur',
         namecategory: 'gaskets',
         image : im,
-        description:'total-seal-toyota-3ur-fe-piston-bore-94-62-mm-thikness-1-5-1-5-3-0-p-n-custom-cs-08-94-62mm',
+        description:'total-seal-toyota-3ur-fe-piston-bore-94-62-mm-thikness-1-5-1-5-3-0-p-n',
         price:5000,
     },
     {

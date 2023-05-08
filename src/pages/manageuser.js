@@ -15,7 +15,7 @@ const Manageusers = () => {
             <Form.Group className="mb-3 d-flex">
               <Form.Control
                 type="text"
-                placeholder="Search Movies"
+                placeholder="Search Users"
                 className="rounded-0"
                />
               <button className="btn btn-dark rounded-0">Search</button>

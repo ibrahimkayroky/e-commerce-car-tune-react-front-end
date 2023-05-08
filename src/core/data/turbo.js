@@ -23,8 +23,8 @@ export const data = [
     },
     {
         id: 3,
-        name: 'FLANGES KIT V-BAND',
-        description:'ARD 4052B QUICK V-BAND CLAMP WITH MALE AND FEMALE FLANGES KIT V-BAND 4.5" (114MM)',
+        name: 'FLANGES KIT',
+        description:'ARD 4052B V-BAND CLAMP MALE AND FEMALE FLANGES',
         image : im5,
         length: 10,
         namecategory: 'Turbo',

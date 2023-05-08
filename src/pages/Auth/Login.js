@@ -4,6 +4,8 @@ import Form from "react-bootstrap/Form";
 import Alert from "react-bootstrap/Alert";
 import "../../../src/pages/products/style/Login.css";
 
+import {Link} from 'react-router-dom'
+
 
 import { useNavigate } from "react-router-dom";
 
@@ -32,12 +34,16 @@ const Login = () => {
         </Form.Group>
 
         <Button
-          className="btn btn-dark w-100"
-          variant="primary"
+          className=" btn btn-lg btn-secondary "
           type="submit"
           >
           Login
         </Button>
+        <Link
+                  to={"Register"}
+                  className="btn  btn-lg btn-secondary  ">
+                  Register
+                </Link>
       </Form>
     </div>
   );

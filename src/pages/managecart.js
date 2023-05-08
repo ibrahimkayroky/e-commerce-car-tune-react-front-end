@@ -9,7 +9,7 @@ const Managecart = () => {
   return (
     <div className="manage-products p-5">
       <div className="header d-flex justify-content-between mb-5">
-        <h3 className="text-center ">Manage cart</h3>
+        <h3 className="text-center ">Manage Cart</h3>
         
       </div>
 
@@ -39,10 +39,10 @@ const Managecart = () => {
             <td></td>
             <td></td>
             <td>
-            <Link
-                  // to={"update"}
+                <Link
+                  to={"update"}
                   className="btn btn-sm btn-primary mx-2">
-                  Accept
+                  Add
                 </Link>
                 <button
                   className="btn btn-sm btn-danger"
@@ -50,6 +50,9 @@ const Managecart = () => {
                   Delete
                 </button>
                 
+            <Link className="btn btn-sm btn-info">
+                  Update
+                </Link>
                 
               </td>
               </tr>

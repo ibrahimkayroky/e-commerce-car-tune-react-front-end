@@ -27,6 +27,7 @@ const ProductsListPage = () => {
                         description={brake.description}
                         image={brake.image}
                         price={brake.price}
+                        
                         watch={watchNow}
                     />;
                 }

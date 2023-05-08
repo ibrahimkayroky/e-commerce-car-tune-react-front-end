@@ -17,19 +17,20 @@ export const data = [
     {
         id: 2,
         name: 'subaru-impreza-sti',
-        description:'exhaust-manifold-with-up-pipe-for-subaru-impreza-sti-ej20-ej25',
+        description:'exhaust-manifold-with-up-pipe-for-sti-ej20-ej25',
         image : im1,
         price:29000,
         namecategory: 'Exhaust-System',
     },
     {
         id: 3,
-        name: 'mercedes-benz-amg',
-        description:'stage-2-performance-auto-parts-mercedes-benz-amg-w213-e63-e63s-stainless-steel-catless-downpipe',
-        image : im2,
-        price:46000,
+        name: 'vw-golf-r',
+        image : im4,
+        description:'vw-golf-r-downpipe-3-inch-audi-s3-2015',
         namecategory: 'Exhaust-System',
+        price:35000,
     },
+    
     {
         id: 4,
         name: 'mercedes-benz-w213-2016',
@@ -39,13 +40,13 @@ export const data = [
         namecategory: 'Exhaust-System',
 
     },
+    
     {
         id: 5,
-        name: 'vw-golf-r',
-        image : im4,
-        description:'vw-golf-r-downpipe-3-inch-audi-s3-2015',
+        name: 'mercedes-benz-amg',
+        description:'stage-2-performance-auto-parts-mercedes-benz-amg-w213-e63-e63s-stainless-steel-catless-downpipe',
+        image : im2,
+        price:46000,
         namecategory: 'Exhaust-System',
-        price:35000,
     },
-    
 ];

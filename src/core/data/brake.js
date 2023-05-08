@@ -14,11 +14,11 @@ export const data = [
         price:18900,
     },
     {
-        id: 2,
-        name: 'mercedes-benz-amg',
+        id: 5,
+        name: 'mercedes-amg',
         image : im1,
         namecategory: 'Brake-System',
-        description:'customize-red-caliper-cover-kit-black-label-amg-for-mercedes-benz-car-class-gle-ml-gla-w',
+        description:'customize-red-caliper-cover-kit-black-amg-for-mercedes-benz-car-class-gle-ml-gla-w',
         price:1000,
     },
     {
@@ -39,11 +39,11 @@ export const data = [
 
     },
     {
-        id: 5,
+        id: 2,
         name: 'brake-pad',
         image : im4,
         namecategory: 'Brake-System',
-        description:'hawk-brake-pad-gtr-r35-rear',
+        description:'hawk-brake-pad-gtr-r35-rear-nissan-calipar-tune-modified-r35',
         price:20000,
     },
    

@@ -6,7 +6,7 @@ const register = () => {
  
     return (
         <div className="login-container">
-        <h1>Add New Email Form</h1>
+        <h1 className="hhh">Register</h1>
   
         
   
@@ -15,10 +15,53 @@ const register = () => {
             <Form.Control
               type="text"
               required
-              placeholder="UserName"
+              placeholder="First Name"
             />
           </Form.Group>
   
+          <Form.Group className="mb-3">
+            <Form.Control
+              type="text"
+              required
+              placeholder="Last Name"
+            />
+          </Form.Group>
+          
+  
+          <Form.Group className="mb-3">
+            <Form.Control
+              type="text"
+              required
+              placeholder="Email"
+            />
+          </Form.Group>
+          
+  
+          <Form.Group className="mb-3">
+            <Form.Control
+              type="text"
+              required
+              placeholder="Phone Number"
+            />
+          </Form.Group>
+          
+  
+          <Form.Group className="mb-3">
+            <Form.Control
+              type="text"
+              required
+              placeholder="Address"
+            />
+          </Form.Group>
+          
+  
+          <Form.Group className="mb-3">
+            <Form.Control
+              type="text"
+              required
+              placeholder="City"
+            />
+          </Form.Group>
           <Form.Group className="mb-3">
             <Form.Control
               className="form-control"
@@ -27,12 +70,13 @@ const register = () => {
               placeholder="Password"
               ></Form.Control>
           </Form.Group>
+          
           <Form.Group className="mb-3">
             <Form.Control
               className="form-control"
               type="text"
 
-              placeholder="ZipCode"
+              placeholder="Zip Code"
               ></Form.Control>
           </Form.Group>
   
