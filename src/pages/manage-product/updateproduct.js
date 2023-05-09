@@ -11,9 +11,6 @@ const UpdateProduct = () => {
   return (
     <div className="login-container">
       <h1 className="add-category">Update Product</h1>
-
-     
-
       <Form className="text-center py-2">
         <img
           style={{

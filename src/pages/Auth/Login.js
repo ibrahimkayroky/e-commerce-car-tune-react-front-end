@@ -6,6 +6,8 @@ import "../../../src/pages/products/style/Login.css";
 import axios from "axios";
 import {Link} from 'react-router-dom'
 import { useNavigate } from "react-router-dom";
+import { setAuthUser } from "../../helper/Storage";
+
 
 const Login = () => {
   const navigate = useNavigate();
@@ -20,7 +22,7 @@ const Login = () => {
     e.preventDefault();
     setLogin({ ...login, loading: true, err: [] });
     axios
-      .post("http://localhost:3000/login", {
+      .post("http://localhost:3000/auth/login", {
         email: login.email,
         password: login.password,
       })
@@ -42,11 +44,11 @@ const Login = () => {
     <div className="login-container">
       <h1>Login Form</h1>
 
-      {login.err.map((error, index) => (
+      {/* {login.err.map((error, index) => (
         <Alert key={index} variant="danger" className="p-2">
           {error.msg}
         </Alert>
-      ))}
+      )) } */}
       <Form onSubmit={LoginFun}>
         <Form.Group className="mb-3">
           <Form.Control

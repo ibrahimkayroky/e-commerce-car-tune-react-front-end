@@ -25,6 +25,7 @@ import AddAdmin from "./pages/Auth/AddAdmin";
 import History from "./pages/HistoryUserForAdmin";
 import CheckOut from "./pages/products/components/CheckOut";
 import UserHistory from "./pages/products/UserHistory";
+import Admin from "./middleware/Admin";
 export const router = createBrowserRouter([
     {
         path: "/",
@@ -92,10 +93,10 @@ export const router = createBrowserRouter([
                 element: <Cart />,
             },
 
-            {
-                path: "/AdminDashBoard",
-                element: <AdminDashBoard/>,
-            },
+            // {
+            //     path: "/AdminDashBoard",
+            //     element: <AdminDashBoard/>,
+            // },
             
             {
               path: "cart/UserHistory",
@@ -104,6 +105,7 @@ export const router = createBrowserRouter([
           
             {
                 path: "/AdminDashBoard",
+                element: <Admin/>,
             
                 children: [
                   {

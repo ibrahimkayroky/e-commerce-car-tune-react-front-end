@@ -12,10 +12,10 @@ const AdminDashBoard = () => {
                 
                     
                     <div className="card-info ">
-                        <button><Link to={"managecart"}><h2 className="title">ManageCart</h2></Link></button>
-                        <button><Link to={"manageusers"}><h2 className="title">ManageUsers</h2></Link></button>
-                        <button><Link to={"managecategory"}><h2 className="title">ManageCategory</h2></Link></button>
-                        <button><Link to={"manageproduct"}><h2 className="title">ManageProduct</h2></Link></button>
+                        <button><Link to={"managecart"}><h2 className="title">Manage Cart</h2></Link></button>
+                        <button><Link to={"manageusers"}><h2 className="title">Manage Users</h2></Link></button>
+                        <button><Link to={"managecategory"}><h2 className="title">Manage Category</h2></Link></button>
+                        <button><Link to={"manageproduct"}><h2 className="title">Manage Product</h2></Link></button>
                         
                     </div> 
         
